@@ -1,4 +1,4 @@
 - hosts: all  
   gather_facts: true
   tasks:
-  - action: ping
+  - action: win_ping

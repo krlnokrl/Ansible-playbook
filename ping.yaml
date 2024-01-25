@@ -1,4 +1,4 @@
-- hosts: server
+- hosts: all  
+  gather_facts: true
   tasks:
-    - name: Example from an Ansible Playbook
-      win_ping:
+  - action: ping

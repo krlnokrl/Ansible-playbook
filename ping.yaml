@@ -1,2 +1,2 @@
-- name: Ping All
-  ansible.builtin.ping:
+- name: Example from an Ansible Playbook
+  win_ping:

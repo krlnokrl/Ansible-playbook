@@ -1,4 +1,4 @@
-- hosts: all  
+- hosts: win  
   tasks:
    - name: Ping Windows Hosts
      win_ping:
